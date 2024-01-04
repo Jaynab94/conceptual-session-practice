@@ -11,6 +11,10 @@
    height: 100vh;
    background-size: cover;
    background-position: bottom center;
+   clip-path: polygon(0 0, 100% 0%, 100% 90%, 46% 100%, 0 89%);
+
+
+
 }
 
 .head h1{
@@ -22,21 +26,25 @@
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     word-spacing: 10px;
     letter-spacing: 5px;
+  
 
 }
 
-.about{
+.about ,#parent{
     width: 80%;
     margin: 5px auto ;
-   
+    box-shadow: 15px 30px;
+    color: rgb(144, 32, 159);
     padding: 60px;
-    /* border-width: 5px;
-    border-color: aqua;
-    border-style: groove; */
+    background:linear-gradient(45deg, rgb(118, 103, 105), rgb(133, 133, 174))
+    
+
+    
 
 
 }
-.about h1{
+
+.about h1, #parent h1{
     text-align: center;
     font-size: 40px;
     border-radius: 10px;
@@ -48,13 +56,64 @@
      padding-bottom: 30px;
      margin: 50px;
      
+
+     
+     
 }
 .about p{
     font-size: 20px;
     font-family: 'Roboto', sans-serif;
     line-height: 2em;
     word-spacing: .20em;
+    
 }
 
+.image{
+    display: flex;
+    flex-direction: row;
+    gap:20px;
+    justify-content: space-around;
+    
+}
+
+.image div{
+    width: 500px;
    
+}
+
+.image img{
+
+
+    width: 500px;
+  
+   
+}
+
+.discover h2{
+    text-align: center;
+    font-weight: 700;
+    padding-top: 30px;
+    color: rgb(29, 58, 59);
+    word-spacing: 10px;
+    letter-spacing: 5px;
+}
+
+
+
+.button{
+
+
+    text-align: center;
+    padding-top: 100px;
+    
+}
+    
+        
+
+
+       
+   
+ 
+
+
 
